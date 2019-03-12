@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC  
+          "-//Hibernate/Hibernate Configuration DTD 5.3//EN"  
+          "http://hibernate.sourceforge.net/hibernate-configuration-5.3.dtd">  
+          <hibernate-mapping>
+          <class name="Product" table="product">
+          <id name="pid" column="id" type="int"/>
+         <proprety name="pname" column="name" type="string/">
+         <proprety name="pcost" column="cost" type="double/">
+          </class>
+          </hibernate-mapping>

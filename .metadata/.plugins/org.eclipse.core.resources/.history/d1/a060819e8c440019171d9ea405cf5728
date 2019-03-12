@@ -1,0 +1,9 @@
+
+public class MyBean2 
+{
+	public void wish2()
+	{
+		System.out.println("Good evening");
+	}
+}
+

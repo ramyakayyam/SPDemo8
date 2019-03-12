@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC  
+ "-//Hibernate/Hibernate Mapping DTD 5.3//EN"  
+ "http://hibernate.sourceforge.net/hibernate-mapping-5.3.dtd"> 
+ <hibernate-mappimg>
+ <class name="Product" table="Product">
+ <id name="pid" column="id" type="int"/>
+ <property name="pname" column="name" type="string"</property>
+ <property name="pcost" column="cost" type="double">/</property>
+ </class>
+ </hibernate-mappimg>

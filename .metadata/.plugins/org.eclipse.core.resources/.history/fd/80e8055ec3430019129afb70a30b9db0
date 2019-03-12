@@ -1,0 +1,14 @@
+
+public class AddressBean 
+{
+private int flatno;
+public void setFlatno(int flatno) 
+{
+	this.flatno = flatno;
+}
+
+public void printAddress()
+{
+	System.out.println("flatno="+flatno+);
+}
+}

@@ -1,0 +1,38 @@
+interface Trainer
+{
+	void teaching();
+	}
+public abstract class Test 
+{
+
+
+class JavaTriner implements Trainer
+{
+	public void teaching()
+	{
+		System.out.println("core,advance & frameworks");
+	}
+}
+class Institute
+{
+	Trainer t;
+	public void setT(Trainer t)
+	{
+		this.t=t;
+	}
+	public void startCourse()
+	{
+		t.teaching();
+	}
+	class test
+	{
+		public void main(String[] args)
+		{
+			JavaTrainer chanti=new JavaTrainer();
+			Institute tg=new Institute();
+			tg.setT((Trainer) chanti);
+			tg.startCourse();
+		} 
+	}
+}
+}

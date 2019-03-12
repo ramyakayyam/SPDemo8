@@ -1,0 +1,12 @@
+
+public class StudentBean 
+{
+
+	public StudentBean() 
+	{
+		private int rollno;
+		private String name;
+		private AddressBean ad;
+	}
+
+}

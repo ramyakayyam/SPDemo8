@@ -1,0 +1,6 @@
+
+public class immtuable1 
+{
+public static final immtuable1 ob1=new immtuable1();
+public static immtuable1 getMyob1()
+}

@@ -1,0 +1,38 @@
+
+public abstract class Test<Institue> 
+{
+interface Trainer
+{
+	void teaching();
+	}
+class JavaTriner implements Trainer
+{
+	public void teaching()
+	{
+		System.out.println("core,advance & frameworks");
+	}
+}
+class Institute
+{
+	Trainer t;
+	public void setT(Trainer t)
+	{
+		this.t=t;
+	}
+	public void startCourse()
+	{
+		t.teaching();
+	}
+	class test
+	{
+		@SuppressWarnings("unchecked")
+		public void main(String[] args)
+		{
+			JavaTrainer chanti=new JavaTrainer();
+			Institue tg=(Institue) new Institute();
+			((Institute) tg).setT((Trainer) chanti);
+			((Institute) tg).startCourse();
+		} 
+	}
+}
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC  
+          "-//Hibernate/Hibernate Configuration DTD 5.3//EN"  
+          "http://hibernate.sourceforge.net/hibernate-configuration-5.3.dtd">  
+          <hibernate-configuration>
+          <session-factory>
+          <proprety name="connection.driver_class">oracle.jdbc.OracleDriver
+          </proprety
+          <proprety name="connection.url">jdbc:oracle:thin:@localhost:1521:XE
+          </proprety>
+          <proprety name="connection.username">ramya
+          </proprety>
+          <proprety name="connection.password">kayyam
+          </proprety>
+          <proprety name="hbm2ddl.auto">create
+          </proprety>
+          <proprety name="dialect">org.hibernate.dialect.OracleDialect
+          </proprety>
+          <proprety name="show_sql">true
+          </proprety>
+          <proprety name="sql_formate">true
+          </proprety>
+          <mapping resource="Camera.hbm.xml/>"
+          </session-factory>
+          </hibernate-configuration>

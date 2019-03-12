@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;AvgBean.java&apos; to &apos;SPDemo4withconstructor/src&apos;&#x0D;&#x0A;- Original project: &apos;SPDemo4collections&apos;&#x0D;&#x0A;- Destination element: &apos;SPDemo4withconstructor/src&apos;&#x0D;&#x0A;- Original element: &apos;AvgBean.java&apos;" description="Copy compilation unit" destination="=SPDemo4withconstructor/src" element1="/src&lt;{AvgBean.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1552108686278" units="1" version="1.0"/>
+</session>

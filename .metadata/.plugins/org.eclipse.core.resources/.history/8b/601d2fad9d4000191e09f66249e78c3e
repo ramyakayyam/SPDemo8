@@ -1,0 +1,21 @@
+package ex;
+
+import org.springframework.beans.factory.BeanFactory;
+import org.springframework.beans.factory.xml.XmlBeanFactory;
+import org.springframework.core.io.ClassPathResource;
+import org.springframework.core.io.Resource;
+
+public class Test {
+
+	public static void main(String[] args) 
+	{
+	 Resource res=new ClassPathResource("myconfig.xml");
+      BeanFactory fac=new XmlBeanFactory(res);
+      WishBean wb1=(WishBean)fac.getBean("id1");
+      wb1.showmsg();
+      WishBean wb2=(WishBean)fac.getBean("id1");
+      wb2.showmsg();
+      System.out.println(wb1);
+      System.out.println(wb2);
+	}
+}

@@ -1,0 +1,22 @@
+import java.util.Iterator;
+import java.util.List;
+import java.util.Set;
+
+public class MyBean 
+{
+private Set<Integer>Rollno;
+public void setRollno1(Set<Integer> rollno) {
+	Rollno = rollno;
+}
+
+public void printRollnos()
+{
+	System.out.println("==== student rollnos are====");
+	Iterator<Integer>it=Rollno.iterator();
+	while(it.hasNext())
+	{
+		System.out.println(it.next());
+	}
+}
+
+

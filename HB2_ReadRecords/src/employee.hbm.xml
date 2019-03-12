@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC  
+ "-//Hibernate/Hibernate Mapping DTD 5.3//EN"  
+ "http://hibernate.sourceforge.net/hibernate-mapping-5.3.dtd">  
+ 
+<hibernate-mapping>
+	<class name="Employee" table="employee1">
+	<id name="pid" column="id" type="int"/>
+	<property name="pname" column="name" type="string"/>
+	<property name="pcost" column="cost" type="double"/>
+	</class>
+</hibernate-mapping>

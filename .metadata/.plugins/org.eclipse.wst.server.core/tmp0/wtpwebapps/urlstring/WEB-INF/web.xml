@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<web-app>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+  <servlet>
+  <servlet_name>Servlet1</servlet_name>
+  <servlet_class>S1</servlet_class>
+  </servlet>
+  <servlet_mapping>
+  <servlet_name>Servlet1</servlet_name>
+  <url_pattern>myurl1</url_pattern>
+  </servlet_mapping>
+</web-app>
